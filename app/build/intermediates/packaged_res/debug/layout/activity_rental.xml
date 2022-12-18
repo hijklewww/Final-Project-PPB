@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:paddingBottom="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:strokeWidth="2dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/idSewa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tenant Identity"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtIcnum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/idSewa"
+                        android:layout_marginTop="10dp"
+                        android:text="IC Number"
+                        android:textColor="@android:color/black"
+                        android:textSize="17sp" />
+
+                    <EditText
+                        android:id="@+id/edtIc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtIcnum"
+                        android:hint="Enter IC Number"
+                        android:inputType="number"
+                        android:maxLength="20"
+                        android:minHeight="48dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtIc"
+                        android:layout_marginTop="20dp"
+                        android:text="Name"
+                        android:textColor="@android:color/black"
+                        android:textSize="17sp" />
+
+                    <EditText
+                        android:id="@+id/edtname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtName"
+                        android:hint="Enter Name(Max 15 characters)"
+                        android:inputType="text"
+                        android:maxLength="20"
+                        android:minHeight="48dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtAddr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtname"
+                        android:layout_marginTop="10dp"
+                        android:text="Address"
+                        android:textColor="@android:color/black"
+                        android:textSize="17sp" />
+
+                    <EditText
+                        android:id="@+id/edtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtAddr"
+                        android:hint="Enter Address"
+                        android:inputType="text"
+                        android:maxLength="100"
+                        android:minHeight="48dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtAddress"
+                        android:layout_marginTop="10dp"
+                        android:text="Phone Number"
+                        android:textColor="@android:color/black"
+                        android:textSize="17sp" />
+
+                    <EditText
+                        android:id="@+id/edtPhoneNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtNumber"
+                        android:hint="Enter Phone Number"
+                        android:inputType="number"
+                        android:maxLength="20"
+                        android:minHeight="48dp"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:strokeWidth="2dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Rent Car Details"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtCarType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/details"
+                        android:layout_marginTop="20dp"
+                        android:text="Car Type"
+                        android:textColor="@android:color/black"
+                        android:textSize="17sp" />
+
+                    <Spinner
+                        android:id="@+id/spinmerk"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_below="@+id/txtCarType"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                    <TextView
+                        android:id="@+id/txtPeriod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/spinmerk"
+                        android:layout_marginTop="20dp"
+                        android:text="Rent Period /Hour"
+                        android:textColor="@android:color/black"
+                        android:textSize="17sp" />
+
+                    <EditText
+                        android:id="@+id/edtlama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtPeriod"
+                        android:hint="Enter How Long You Want Rent"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:minHeight="48dp"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/bt_tgl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/edtlama"
+                        android:layout_gravity="end|bottom"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="Choose Date"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        app:backgroundTint="@color/black"
+                        app:cornerRadius="50dp" />
+
+                    <EditText
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bt_tgl"
+                        android:hint="Enter The Date"
+                        android:maxLength="20"
+                        android:minHeight="48dp"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="8dp"
+                android:text="PROCEED"
+                app:cornerRadius="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                android:backgroundTint="@color/gold"
+                android:onClick="btnSave" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="8dp"
+                android:text="CANCEL"
+                app:cornerRadius="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                android:backgroundTint="@color/gold"
+                android:onClick="btnCancel" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

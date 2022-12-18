@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_carkey.png.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/carkey.png"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_car.jpg.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/car.jpg"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_civic.png.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/civic.png"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_logo.jpg.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/logo.jpg"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_drivelogo.jpg.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/drivelogo.jpg"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_myvi.jpg.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/myvi.jpg"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/layout_activity_register_car_rental.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/layout/activity_register_car_rental.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/layout_activity_login.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/layout_activity_rent_details.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/layout/activity_rent_details.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.finalppb.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_camryy.png.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/camryy.png"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_camry.jpg.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/camry.jpg"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_bmw.png.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/bmw.png"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/layout_activity_car_details.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/layout/activity_car_details.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/layout_activity_rental.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/layout/activity_rental.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_bezza.jpg.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/bezza.jpg"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_button.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/button.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/drawable-v24_ic_launcher_background.xml.flat",
+        "source": "com.example.finalppb.app-main-31:/drawable-v24/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.finalppb.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.finalppb.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]
